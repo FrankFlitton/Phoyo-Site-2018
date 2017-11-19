@@ -35,3 +35,16 @@ function debounce(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
+
+preload = (function () {
+    var images = [];
+
+    return function () {
+        var args = Array.prototype.slice.call(arguments);
+
+        while (args.length > 0) {
+            images.unshift(new Image());
+            images[0].src = args.shift();
+        }
+    }
+}());

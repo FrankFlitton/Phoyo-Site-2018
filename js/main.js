@@ -41,6 +41,11 @@ $('body').click(function(event) {
 
 $( '.featureImageContainer' ).addClass("disabled");
 
+$(".featurePoint").mouseenter(function( event ) {
+    var featureImageURL = 'img/homePage/Slider/featurePoints/' + event.target.id + '.jpg';
+    preload(featureImageURL);
+});
+
 $(".featurePoint").click(function(event) {
     
     var featureImageURL = 'img/homePage/Slider/featurePoints/' + event.target.id + '.jpg';
