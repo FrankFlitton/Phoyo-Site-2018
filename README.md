@@ -4,10 +4,11 @@ Code in progress, current iteration is a prototype.
 
 TODO: 
 1. Transpose to React+Redux or Angular (still deciding)
-2. Load Another Stage 
-  1. Generalize stage init
-  2. Stage destroy
-3. Load body overtop of load section
-4. Transition animations
-5. Interaction SFX affordance
-6. [Bodymovin Illustrations for content sections.](https://codepen.io/collection/nVYWZR/)
+2. Generalize stage init
+3. Load Another Stage 
+4. Generalize stage init
+5. Stage destroy
+6. Load body overtop of interactive section
+7. Transition animations
+8. Interaction SFX affordance
+9. [Bodymovin Illustrations for content sections.](https://codepen.io/collection/nVYWZR/)
