@@ -36,7 +36,7 @@ function debounce(func, wait, immediate) {
 	};
 };
 
-preload = (function () {
+var preload = (function () {
     var images = [];
 
     return function () {
