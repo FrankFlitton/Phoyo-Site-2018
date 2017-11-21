@@ -1,16 +1,3 @@
-/* 
-
-Code Inprogress, current itteration is prototype
-
-TODO: 
-     1. Transpose to React or Angular (still deciding)
-     2. Load Another Stage
-     3. Load body overtop of load section
-     4. Transition animations
-     5. Interaction SFX affordance
-
-*/
-
 // Global Variables
 
 window.curSlide = void 0;
